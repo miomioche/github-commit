@@ -539,4 +539,139 @@ background-color: white;
 
 }
 
+#contentCloud {
+   position: absolute;
+   width:100%;    
+   height: 200px;
+   background-image: linear-gradient(to bottom, #003966, #2b6287, #588da7, #8ab9c6, #c2e6e9);
+   border-bottom: solid 1px #999;
+   box-shadow: #bababa 0px 0px 5px;
+   font-weight: 900;
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   margin: 0;
+   padding: 0;
+}
 
+#cloud1 {
+   z-index: 1;
+   position: absolute;
+   left:0px;
+   top:1.5em;
+   font-size: 2em;
+   color: #82d4e2;
+   animation: moveCloud 60s linear infinite;
+   -webkit-animation: moveCloud 60s linear infinite;
+   -moz-animation: moveCloud 60s linear infinite;
+}
+#cloud2 {
+   z-index: 2;
+   position: absolute;
+   left:-20px;
+   top:2em;
+   font-size: 1em;
+   font-weight: 900;
+   color: #666;
+   animation-delay:7s;
+   -webkit-animation-delay:7s;
+   -moz-animation-delay: 7s;
+   animation: moveCloud 50s ease-in-out infinite;
+   -webkit-animation: moveCloud 50s ease-in-out infinite;
+   -moz-animation: moveCloud 50s ease-in-out infinite;
+}
+#cloud3 {
+   z-index: 1;
+   position: absolute;
+   left:-50px;
+   bottom:.5em;
+   font-size: 2.5em;
+   color: #a8e4ec;  
+   animation: moveCloud 55s ease-out infinite;
+   -webkit-animation: moveCloud 55s ease-out infinite;
+   -moz-animation: moveCloud 55s ease-out infinite;
+}
+#cloud4 {
+   z-index: 2;
+   position: absolute;
+   left:-10px;
+   top:3em;
+   font-size: 2em;
+   font-weight: 900;
+   color: #999;
+   animation-delay:1s;
+   -webkit-animation-delay:1s;
+   -moz-animation-delay: 1s;
+   animation: moveCloud 50s ease-in-out infinite;
+   -webkit-animation: moveCloud 50s ease-in-out infinite;
+   -moz-animation: moveCloud 50s ease-in-out infinite;
+}
+#cloud5 {
+   z-index: 2;
+   position: absolute;
+   left:-60px;
+   top:2.8em;
+   font-size: 2.5em;
+   font-weight: 900;
+   color: #bababa;
+   animation: moveCloud 20s ease-out infinite;
+   -webkit-animation: moveCloud 20s ease-out infinite;
+   -moz-animation: moveCloud 20s ease-out infinite;
+}
+#cloud6 {
+   z-index: 2;
+   position: absolute;
+   left:-40px;
+   top:0.5em;
+   font-size: 1.8em;
+   font-weight: 900;
+   color: #cacaca;
+   animation-delay:4s;
+   -webkit-animation-delay:4s;
+   -moz-animation-delay: 4s;
+   animation: moveCloud 20s ease-in infinite;
+   -webkit-animation: moveCloud 20s ease-in infinite;
+   -moz-animation: moveCloud 20s ease-in infinite;
+
+}
+
+
+
+@keyframes moveCloud {
+   0% {
+       transform: translate(1950px);
+   }
+   100% {
+       transform: translate(-50px);
+   }
+}
+@-webkit-keyframes moveCloud {
+   0% {
+       transform: translate(1950px);
+   }
+   100% {
+       transform: translate(-50px);
+   }
+}
+@-moz-keyframes moveCloud {
+   0% {
+       transform: translate(1950px);
+   }
+   100% {
+       transform: translate(-50px);
+   }
+}
+
+#sun {
+   position: absolute;
+   top: 2em;
+   left: 4em;
+   width: 3.5em;
+   height: 3.5em;
+   background-color : yellow;
+   border-radius: 50%;
+   border: 1px solid #FFFACD;
+   box-shadow: #FFFACD 0px 0px 100px 20px;
+}
