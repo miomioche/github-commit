@@ -1,9 +1,9 @@
 const projects = [
     {
-        title: "Projet 1",
-        description: "Description du Projet 1.",
+        title: "Créer un Carousel",
+        description: "Nous avons créé un carrousel à partir de Bootstrap. Pour cela, nous avons créé un container avec une classe afin de lui donner nos dimensions. Nous avons ensuite créé le titre avec un H2 que nous avons mis en place sans CSS ni JavaScript. Pour créer notre container, nous avons utilisé plusieurs div qui ont permis de stocker les images. Ensuite, nous avons créé un bouton qui permet le défilement du carrousel.",
         technologies: ["flexbox", "boolstrap", "JavaScript"],
-        link: "",
+        link: "./index.html",
         progress: 60// Ajoutez la progression ici (pourcentage)
     },
     {
