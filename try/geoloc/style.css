@@ -1,0 +1,46 @@
+body {
+	background-attachment: fixed !important;
+	background-image: linear-gradient(90deg, #ffffff, #3780b0);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+h1 {
+	font-size: 100px;
+	text-align: center;
+}
+
+span {
+	font-weight: bold;
+}
+
+.container {
+	text-align: center;
+}
+
+.ville {
+	margin: auto;
+	display: block;
+	font-size: 60px;
+}
+
+.temperature {
+	margin: 20px auto;
+	display: block;
+	font-size: 30px;
+}
+
+.changerVille {
+	margin: auto;
+	display: block;
+	margin-top: 150px;
+	padding: 15px 30px;
+	border-radius: 5px;
+	border: none;
+	background-color: #2880b9;
+	color: white;
+	font-size: 30px;
+	cursor: pointer;
+}
