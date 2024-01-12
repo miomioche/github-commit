@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>progress bar </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="sub-title">
+        <span>Présentation de la page</span>
+
+        
+    </h1>
+    <h2 class="intro">
+        <span><b>Dans cette page, vous retrouverez 8 projets différents.
+
+            Ceux-ci peuvent être aussi bien des projet personnel que des exercices fait en cours.
+            
+            Le but de l'exercice était d'effectuer plusieurs échanges avec le logiciel Git up.
+            
+            Ainsi, chaque groupe pouvait s'entraîner à faire des échanges avec ses coéquipiers.
+            
+            Voici l'énoncé de l'exercice :
+            
+            Voilà le dépôt pour le travail sur github https://metis.afpa.fr/mod/assign/view.php?id=16689834.
+            
+            Le but sera de créer une petite interface web afin de répertorier 8 projets que nous avons réalisé en cours.
+            
+            En intégrant le titre, une brève description, une progresse bar qui résume les technos utilisés dans le projet et  un lien qui affichera le projet. 
+            </span>
+    </h2>
+    
+    <div class="project-container" id="project1">
+
+        <h3>Florence</h3>
+        <p>Le but était de crée une page Web avec le texte et l'image au centre </p>
+        <img src="./try/img/florence img.PNG" alt="Florence">
+        <a href="./try/florence/index.html">Voir le projet</a>
+            <div class="skill-container">
+                <div class="skill">
+                    <div class="text">Html</div>
+                    <div class="outer">
+                    <div class="inner">
+                        <div class="number" data-num="78"></div>
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                 <defs>
+                     <linearGradient id="GradientColor">
+                         <stop offset="0%" stop-color="#e91e63" />
+                        <stop offset="100%" stop-color="#673ab7" />
+                    </linearGradient>
+                 </defs>
+                 <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+            </svg>
+        </div>
+        <div class="skill">
+            <div class="text">CSS</div>
+            <div class="outer">
+                <div class="inner">
+                    <div class="number" data-num="22"></div>
+                </div>
+            </div>
+             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                <defs>
+                    <linearGradient id="GradientColor">
+                        <stop offset="0%" stop-color="#e91e63" />
+                        <stop offset="100%" stop-color="#673ab7" />
+                    </linearGradient>
+                </defs>
+                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+            </svg>
+        </div>    
+    </div>
+</div>
+
+
+<div class="project-container" id="project2">       
+    <h3>Transitions</h3>
+    <p>Le but était de crée une bandeau avec une animation de scroll ou on peut voir une liste de   plusieurs villes</p>
+    <img src="./try/img/transitions img.PNG" alt="transitions">
+    <a href="./try/transitions/index.html">Voir le projet</a>
+    <div class="skill-container">
+        <div class="skill">
+        <div class="text">Html</div>
+        <div class="outer">
+            <div class="inner">
+                <div class="number" data-num="48"></div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+            <defs>
+                <linearGradient id="GradientColor">
+                    <stop offset="0%" stop-color="#e91e63" />
+                    <stop offset="100%" stop-color="#673ab7" />
+                 </linearGradient>
+             </defs>
+        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+    </svg>
+</div>
+<div class="skill">
+    <div class="text">CSS</div>
+    <div class="outer">
+        <div class="inner">
+            <div class="number" data-num="52"></div>
+        </div>
+    </div>      
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+        <defs>
+           <linearGradient id="GradientColor">
+              <stop offset="0%" stop-color="#e91e63" />
+              <stop offset="100%" stop-color="#673ab7" />
+           </linearGradient>
+        </defs>
+        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+    </svg>
+</div>
+
+</div>
+</div>
+
+<div class="project-container" id="project3">
+
+    <h3>Geoloc</h3>
+    <p>Création un géoloc grâce à API qui permet  tout en ajoutant la fonction apprise récemment "fetch" </p>
+    <img src="/try/img/geoloc img.png" alt="geoloc">
+    <a href="./try/geoloc/index.html">Voir le projet</a>
+
+<div class="skill-container">
+<div class="skill">
+    
+    <div class="text">Html</div>
+    <div class="outer">
+        <div class="inner">
+            <div class="number" data-num="21"></div>
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+        <defs>
+           <linearGradient id="GradientColor">
+              <stop offset="0%" stop-color="#e91e63" />
+              <stop offset="100%" stop-color="#673ab7" />
+           </linearGradient>
+        </defs>
+        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+</svg>
+</div>
+<div class="skill">
+    <div class="text">CSS</div>
+    <div class="outer">
+        <div class="inner">
+            <div class="number" data-num="31"></div>
+        </div>
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+        <defs>
+           <linearGradient id="GradientColor">
+              <stop offset="0%" stop-color="#e91e63" />
+              <stop offset="100%" stop-color="#673ab7" />
+           </linearGradient>
+        </defs>
+        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+</svg>
+</div>
+<div class="skill">
+    <div class="text">JavaScript</div>
+    <div class="outer">
+        <div class="inner">
+            <div class="number" data-num="48"></div>
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+        <defs>
+           <linearGradient id="GradientColor">
+              <stop offset="0%" stop-color="#e91e63" />
+              <stop offset="100%" stop-color="#673ab7" />
+           </linearGradient>
+        </defs>
+        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+</svg>
+</div>
+</div>
+</div>
+
+<div class="project-container" id="project4">
+    <h3>IMC</h3>
+    <p>Crée une balance IMC tout en ajoutant  les conditions pour indiquer si la personne est en surpoids ou  maigre par rapport à son IMC</p>
+    <img src="/try/img/imc img.png" alt="IMC">
+    <a href="./try/imc/index.html">Voir le projet</a>
+
+<div class="skill-container">
+<div class="skill">
+    
+    <div class="text">Html</div>
+    <div class="outer">
+        <div class="inner">
+            <div class="number" data-num="26"></div>
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+        <defs>
+           <linearGradient id="GradientColor">
+              <stop offset="0%" stop-color="#e91e63" />
+              <stop offset="100%" stop-color="#673ab7" />
+           </linearGradient>
+        </defs>
+        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+</svg>
+</div>
+<div class="skill">
+    <div class="text">CSS</div>
+    <div class="outer">
+        <div class="inner">
+            <div class="number" data-num="37"></div>
+        </div>
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+        <defs>
+           <linearGradient id="GradientColor">
+              <stop offset="0%" stop-color="#e91e63" />
+              <stop offset="100%" stop-color="#673ab7" />
+           </linearGradient>
+        </defs>
+        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+</svg>
+</div>
+<div class="skill">
+    <div class="text">JavaScript</div>
+    <div class="outer">
+        <div class="inner">
+            <div class="number" data-num="37"></div>
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+        <defs>
+           <linearGradient id="GradientColor">
+              <stop offset="0%" stop-color="#e91e63" />
+              <stop offset="100%" stop-color="#673ab7" />
+           </linearGradient>
+        </defs>
+        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+</svg>
+</div>
+</div>
+</div>
+
+<div class="project-container" id="project5">
+    <h3>Kyoto</h3>
+    <p>Création une page web sur la ville de Kyoto avec des liens cliquables. Tout en ayant un site responsive et une première utilisation du parallax et pour finir un formulaire pour poser sa question.</p>
+    <img src="/try/img/kyoto img.PNG" alt="kyoto">
+    <a href="./try/kyoto propre/Template 3 projetperso/index.html">Voir le projet</a>
+
+<div class="skill-container">
+<div class="skill">
+    
+    <div class="text">Html</div>
+    <div class="outer">
+        <div class="inner">
+            <div class="number" data-num="40"></div>
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+        <defs>
+           <linearGradient id="GradientColor">
+              <stop offset="0%" stop-color="#e91e63" />
+              <stop offset="100%" stop-color="#673ab7" />
+           </linearGradient>
+        </defs>
+        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+</svg>
+</div>
+<div class="skill">
+    <div class="text">CSS</div>
+    <div class="outer">
+        <div class="inner">
+            <div class="number" data-num="60"></div>
+        </div>
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+        <defs>
+           <linearGradient id="GradientColor">
+              <stop offset="0%" stop-color="#e91e63" />
+              <stop offset="100%" stop-color="#673ab7" />
+           </linearGradient>
+        </defs>
+        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+</svg>
+</div>
+
+</div>
+</div>
+
+<div class="project-container" id="project6">
+    <h3>Neon loading</h3>
+    <p>Crée un effet de neon sur le Loading en ajoutant un animation delay.</p>
+    <img src="/try/img/neon img.png" alt="neon">
+    <a href="./try/text neon/index.html">Voir le projet</a>
+
+<div class="skill-container">
+<div class="skill">
+    
+    <div class="text">Html</div>
+    <div class="outer">
+        <div class="inner">
+            <div class="number" data-num="32"></div>
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+        <defs>
+           <linearGradient id="GradientColor">
+              <stop offset="0%" stop-color="#e91e63" />
+              <stop offset="100%" stop-color="#673ab7" />
+           </linearGradient>
+        </defs>
+        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+</svg>
+</div>
+<div class="skill">
+    <div class="text">CSS</div>
+    <div class="outer">
+        <div class="inner">
+            <div class="number" data-num="68"></div>
+        </div>
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+        <defs>
+           <linearGradient id="GradientColor">
+              <stop offset="0%" stop-color="#e91e63" />
+              <stop offset="100%" stop-color="#673ab7" />
+           </linearGradient>
+        </defs>
+        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+</svg>
+</div>
+
+</div>
+</div>
+
+<div class="project-container" id="project7">
+    <h3>Carrousel</h3>
+    <p>Ici nous devions créer un carrousel avec 3 images</p>
+    <a href="./carrousel.html">Voir le projet</a>
+
+<div class="skill-container">
+<div class="skill">
+    
+    <div class="text">Html</div>
+    <div class="outer">
+        <div class="inner">
+            <div class="number" data-num="100"></div>
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+        <defs>
+           <linearGradient id="GradientColor">
+              <stop offset="0%" stop-color="#e91e63" />
+              <stop offset="100%" stop-color="#673ab7" />
+           </linearGradient>
+        </defs>
+        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+</svg>
+</div>
+
+</div>
+</div>
+
+<div class="project-container" id="project8">
+    <h3>Dark button</h3>
+    <p>Dans cet exercice, il fallait réussir à faire un bouton qui permettait de passer en dark mod.</p>
+    <a href="./projet8.html">Voir le projet</a>
+
+<div class="skill-container">
+<div class="skill">
+    
+    <div class="text">Html</div>
+    <div class="outer">
+        <div class="inner">
+            <div class="number" data-num="18"></div>
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+        <defs>
+           <linearGradient id="GradientColor">
+              <stop offset="0%" stop-color="#e91e63" />
+              <stop offset="100%" stop-color="#673ab7" />
+           </linearGradient>
+        </defs>
+        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+</svg>
+</div>
+<div class="skill">
+    <div class="text">CSS</div>
+    <div class="outer">
+        <div class="inner">
+            <div class="number" data-num="40"></div>
+        </div>
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+        <defs>
+           <linearGradient id="GradientColor">
+              <stop offset="0%" stop-color="#e91e63" />
+              <stop offset="100%" stop-color="#673ab7" />
+           </linearGradient>
+        </defs>
+        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+</svg>
+</div>
+<div class="skill">
+    <div class="text">JavaScript</div>
+    <div class="outer">
+        <div class="inner">
+            <div class="number" data-num="41"></div>
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+        <defs>
+           <linearGradient id="GradientColor">
+              <stop offset="0%" stop-color="#e91e63" />
+              <stop offset="100%" stop-color="#673ab7" />
+           </linearGradient>
+        </defs>
+        <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+</svg>
+</div>
+</div>
+</div>
+ <script src="main.js"></script>
+</body>
+</html>

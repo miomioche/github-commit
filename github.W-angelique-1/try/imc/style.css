@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(43, 151, 194);
+    font-family: "Roboto", sans-serif;
+}
+
+.calculator-container {
+    position: absolute;
+    top: 100px; left: 50%;
+    transform: translateX(-50%);
+    background-color: antiquewhite;
+    width: 700px;
+    height: 400px;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+h1 span {
+    font-weight: 700;
+}
+
+.calculator-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calcInputs {
+    display: flex;
+    gap: 1rem;
+}
+
+.calculator-container label {
+    font-size: 0.8rem;
+}
+
+.calculator-container input {
+    display: block;
+    width: 250px;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    filter: drop-shadow(0 3px 3px rgba(0, 0, 0, 0.3));
+}
+
+.calculator-container button {
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    background-color: rgb(226, 192, 39);
+    border-radius: 5px;
+    border: 2px solid rgb(226, 192, 39);
+    font-weight: bold;
+    font-size: 1rem;
+    transition: 200ms ease-in-out;
+}
+
+.calculator-container button:hover {
+    background-color: transparent;
+}
+
+#resultValue {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
