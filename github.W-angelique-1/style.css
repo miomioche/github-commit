@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+h1 {
+    
+    background-color: #06e3fc;
+    
+    color: #0f2481c1;
+}
+
+h2 {
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #efd345dd;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+h3{
+    color: #9366e2;
+    font-size: 5em;
+    line-height: 1;
+    text-align: center;
+    background-color: #f0fc06;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+
+.container {
+    background-color: #c6a13cee;
+    border: 1px solid #dbc719e1;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+img{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+.sub-title{
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 70px;
+    padding-top: 30px;
+}
+
+.sub-title span{
+    color: #ff4f4f;
+}
+
+.intro{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 70px;
+    padding-top: 30px;
+}
+
+.intro span{
+    color: green;
+}
+
+.project-container {
+    border: 1px solid #379acb;
+    padding:100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.skill-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-container .skill {
+    position: relative;
+    margin-right: 40px
+}
+
+.skill-container .skill .text {
+    position: absolute;
+    top: -30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.skill-container .skill .outer{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(255, 255, 255, 0.7)
+}
+
+.skill-container .skill .outer .inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0, 0.2),
+                inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                -.5px  -.5px 0px rgba(255, 255, 255, 0.1)
+                -.5px .5px 0px rgba(0,0,0, 0.15),
+                0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+
+.skill-container .skill .outer .inner .number{
+    font-weight: 800;
+    position: relative;
+    top: 25%;
+    transform: translateY(-50%);
+    margin-right: -25px;
+}
+
+
+.skill-container .skill:nth-child(1) .outer .inner .number{
+    color: #f75023;
+}
+
+.skill-container .skill:nth-child(2) .outer .inner .number{
+    color: #4fa0ff;
+}
+
+.skill-container .skill:nth-child(3) .outer .inner .number{
+    color: #7811f7;
+}
+
+circle{
+    fill: none;
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 0;
+    transition: 2s linear;
+}
+
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.skill-container .skill:nth-child(1) circle{
+    stroke: #f75023;
+}
+
+.skill-container .skill:nth-child(2) circle{
+    stroke: #4fa0ff;
+}
+.skill-container .skill:nth-child(3) circle{
+    stroke: #7811f7;
+}
